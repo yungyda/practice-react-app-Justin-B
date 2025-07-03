@@ -1,12 +1,19 @@
-# React + Vite
+# React Profile Card App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modular React application that renders user profile cards dynamically using props and functional components. This project demonstrates component reusability, dynamic rendering with props, and clean separation of concerns in a React-based frontend.
 
-Currently, two official plugins are available:
+## 🔍 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔁 **Reusable Components** — `ProfileCard` is a standalone component that can accept and render any profile data passed via props.
+- 📦 **Component Composition** — `ProfileContainer` manages and renders multiple `ProfileCard` components.
+- 🧠 **Dynamic Rendering** — The app uses JavaScript's `.map()` method to dynamically generate UI elements from an array of data.
+- 🎨 **Responsive Styling** — The layout is styled using Flexbox for clean alignment and modern presentation.
 
-## Expanding the ESLint configuration
+## 🚀 Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/) for fast dev server and bundling
+- CSS (vanilla) for layout and styling
+
+## 🧱 Project Structure
+
